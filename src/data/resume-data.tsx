@@ -1,22 +1,4 @@
-import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
-} from "@/images/logos";
+
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
@@ -32,7 +14,7 @@ export const RESUME_DATA = {
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
     email: "rrg.connect@gmail.com",
-    // tel: "+48530213401",
+    // tel: "",
     social: [
       {
         name: "GitHub",
@@ -72,7 +54,7 @@ export const RESUME_DATA = {
       link: "",
       badges: [],
       title: "Java Developer Intern",
-      // logo: ParabolLogo,
+      // logo: logo,
       start: "June 5, 2023",
       end: "July 1, 2023",
       description:
@@ -84,7 +66,6 @@ export const RESUME_DATA = {
       link: "https://www.isro.gov.in",
       badges: [],
       title: "Online Training Programme",
-      // logo: NSNLogo,
       start: "July 20, 2023",
       end: "August 7, 2023",
       description: "Explored the significance and history of space research and exploration, & ISRO's role in it; astrophysical principles,including celestial phenomena, cosmic structures, and the behavior of matter and energy in the universe and delved into astrochemistry, exploring the chemical composition of cosmic objects.",
@@ -104,161 +85,109 @@ export const RESUME_DATA = {
       title: "Personal Portfolio",
       techStack: [
         "Side Project",
-        "TypeScript",
-        "Next.js",
+        "React",
+        "Sanity",
         "Vite",
-        "GraphQL",
-        "WebRTC",
+        "Sass",
+        "Netlify",
       ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
+      description: "My peronsal portfolio website built with React and Sanity",
+      // logo:
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "riddhiraj.netlify.app",
+        href: "https://riddhiraj.netlify.app/",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "AI Irrigation System",
+      techStack: ["Side Project", "Python", "Flask", "Tailwind CSS", "JS", "pandas", "scikit-learn"],
       description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
+        "Smart Irrigation Predictor system focused on resource management within agricultural environments",
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "ai-irrigation",
+        href: "https://github.com/RiddhiRaj/ai_irrigation_bg",
       },
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "Hand Gesture Controlled Mouse",
+      techStack: ["Side Project", "Machine Learning", "Python", "OpenCV", "Tensorflow"],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
+        "Interactive Human-Computer Interaction (HCI) system that allows users to control their computer's mouse pointer using certain hand gestures",
+      // link: {
+      //   label: "github.com",
+      //   href: "",
+      // },
+    },
+    {
+      title: "Habitable Exoplanets",
+      techStack: ["NASA Space Apps Challenge 2023", "GenAI", "Canva"],
+      description:
+        "Made an exoplanet travel bureau, a comprehensive illustrated research paper, a user-friendly interface (UI/UX) for an e-commerce platform and a video presentation for the same",
+      link: {
+        label: "",
+        href: "",
+      },
+    },
+    {
+      title: "Analysis of Various Machine Learning Classifiers",
+      techStack: ["Univ. Project", "Python", "ML"],
+      description:
+        "A paper based on the evaluation of diverse machine learning classifiers",
+      link: {
+        label: "",
+        href: "",
+      },
+    },
+    {
+      title: "Minimal Portfolio",
+      techStack: ["Side Project", "HTML", "CSS", "JS", "Github Pages"],
+      description: "My first portfolio website built with HTML, CSS, and JS",
+      link: {
+        label: "riddhiraj.github.io",
+        href: "https://riddhiraj.github.io/",
+      },
+    },
+    {
+      title: "No-Code Website",
+      techStack: ["Super.so","Notion",],
+      description:
+        "A no-code website to host notes and assignments for my college.",
       link: {
         label: "github.com",
-        href: "https://jarocki.me/",
+        href: "https://cs-notes.super.site/",
       },
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
+      title: "Meow",
       techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "Side Project","HTML","CSS",
       ],
       description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
+        "A fun little cat website",
       link: {
-        label: "github.com",
-        href: "https://parabol.co/",
+        label: "riddhiraj.github.io",
+        href: "https://riddhiraj.github.io/cats.html",
       },
     },
     {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
+      title: "Krypt",
+      techStack: ["Side Project", "Solidity", "Smart Contracts", "Blockchain", "React", "Tailwind CSS", "Metamask"],
       description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
+        "A website to upload files, share securely across the world using blockchain technology",
       link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
+        label: "rrg-krypt.netlify.app",
+        href: "https://rrg-krypt.netlify.app/",
       },
     },
     {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "Startup Name Generator",
+      techStack: ["Side Project", "Flutter", "Dart"],
       description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
+        "A website to generate startup names done by combining two words together",
       link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
+        label: "rrg-namegen.netlify.app",
+        href: "https://rrg-namegen.netlify.app/",
       },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;
