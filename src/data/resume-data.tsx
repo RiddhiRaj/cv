@@ -1,4 +1,4 @@
-
+import dp from './src/images/dp.jpg';
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
@@ -10,8 +10,8 @@ export const RESUME_DATA = {
     "CS Engineer focused on building products with extra attention to detail",
   summary:
     "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec lacinia tincidunt, nunc nunc ldolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl: "./src/images/dp.jpg",
+  personalWebsiteUrl: "https://riddhiraj.netlify.app/",
   contact: {
     email: "rrg.connect@gmail.com",
     // tel: "",
