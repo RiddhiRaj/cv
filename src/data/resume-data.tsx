@@ -1,4 +1,23 @@
-import dp from './src/images/dp.jpg';
+import {
+  AmbitLogo,
+  BarepapersLogo,
+  BimLogo,
+  CDGOLogo,
+  ClevertechLogo,
+  ConsultlyLogo,
+  EvercastLogo,
+  Howdy,
+  JarockiMeLogo,
+  JojoMobileLogo,
+  Minimal,
+  MobileVikingsLogo,
+  MonitoLogo,
+  NSNLogo,
+  ParabolLogo,
+  TastyCloudLogo,
+  YearProgressLogo,
+  myImage,
+} from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
@@ -10,11 +29,11 @@ export const RESUME_DATA = {
     "CS Engineer focused on building products with extra attention to detail",
   summary:
     "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec lacinia tincidunt, nunc nunc ldolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
-  avatarUrl: "./src/images/dp.jpg",
+  avatarUrl: "myImage",
   personalWebsiteUrl: "https://riddhiraj.netlify.app/",
   contact: {
     email: "rrg.connect@gmail.com",
-    // tel: "",
+    tel: "",
     social: [
       {
         name: "GitHub",
@@ -52,8 +71,8 @@ export const RESUME_DATA = {
     {
       company: "Calcutta Electric Supply Corporation Ltd.",
       link: "",
-      badges: [],
-      title: "Java Developer Intern",
+      badges: ["Intern"],
+      title: "Java Developer",
       // logo: logo,
       start: "June 5, 2023",
       end: "July 1, 2023",
@@ -74,11 +93,9 @@ export const RESUME_DATA = {
   skills: [
     "HTML","CSS","JavaScript","C","C++","Java",
     "Latex","Markdown",
-    "Bootstrap","Tailwind CSS","Springboot","Thymeleaf","Flask",
+    "Bootstrap","Tailwind CSS","Springboot","Flask",
     "MySql","Oracle","Node.js",
     "Python","Scikit learn","Numpy","Panda","Tensorflow", "Keras", "PyTorch", "OpenCV",
-    "GCP for AI"
-
   ],
   projects: [
     {
@@ -122,7 +139,7 @@ export const RESUME_DATA = {
       title: "Habitable Exoplanets",
       techStack: ["NASA Space Apps Challenge 2023", "GenAI", "Canva"],
       description:
-        "Made an exoplanet travel bureau, a comprehensive illustrated research paper, a user-friendly interface (UI/UX) for an e-commerce platform and a video presentation for the same",
+        "Made an exoplanet travel bureau, a comprehensive illustrated concept paper, a user-friendly interface (UI/UX) for an e-commerce platform and a video presentation for the same",
       link: {
         label: "",
         href: "",
