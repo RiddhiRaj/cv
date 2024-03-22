@@ -83,7 +83,7 @@ export const RESUME_DATA = {
     {
       company: "ISRO",
       link: "https://www.isro.gov.in",
-      badges: [],
+      badges: ["Remote"],
       title: "Online Training Programme",
       start: "July 20, 2023",
       end: "August 7, 2023",
