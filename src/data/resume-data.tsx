@@ -28,7 +28,8 @@ export const RESUME_DATA = {
   about:
     "Engineer 💻| Developer 🧑🏻‍💻| Space Enthusiast 🚀 Trying to create things which create value for people 🪄",
   summary:
-    "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec lacinia tincidunt, nunc nunc ldolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
+    "CS AI & ML engineering student at UEM, Kolkata with an insatiable curiosity for emerging technologies and their impact on our world. My passion for these subjects extends to various domains, with a particular fascination for Machine Learning and Space exploration. I eagerly seek opportunities to engage in meaningful discussions and aspire to contribute to development and research endeavors in these fields. Open to collaborations and new opportunities!",
+
   avatarUrl: "https://i.postimg.cc/qM879K42/rrg.jpg",
   personalWebsiteUrl: "https://riddhiraj.netlify.app/",
   contact: {
