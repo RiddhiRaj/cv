@@ -29,7 +29,7 @@ export const RESUME_DATA = {
     "Engineer 💻| Developer 🧑🏻‍💻| Space Enthusiast 🚀 Trying to create things which create value for people 🪄",
   summary:
     "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec lacinia tincidunt, nunc nunc ldolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
-  avatarUrl: "myImage",
+  avatarUrl: "https://i.postimg.cc/qM879K42/rrg.jpg",
   personalWebsiteUrl: "https://riddhiraj.netlify.app/",
   contact: {
     email: "rrg.connect@gmail.com",
@@ -100,14 +100,7 @@ export const RESUME_DATA = {
   projects: [
     {
       title: "Personal Portfolio",
-      techStack: [
-        "Side Project",
-        "React",
-        "Sanity",
-        "Vite",
-        "Sass",
-        "Netlify",
-      ],
+      techStack: ["Side Project","React","Sanity","Vite","Sass","Netlify"],
       description: "My peronsal portfolio website built with React and Sanity",
       // logo:
       link: {
@@ -126,6 +119,16 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "AI In Agriculture - A Social Engineering Perspective",
+      techStack: ["Research Paper", "Python", "Kaggle", "Neural Networks", "Tensorflow", "scikit-learn", "OpenCV", "Pandas"],
+      description:
+        "Demonstrates the effectiveness of CNN and VGG16 over other traditional classification techniques.",
+      link: {
+        label: "ai-irrigation",
+        href: "",
+      },
+    },
+    {
       title: "Hand Gesture Controlled Mouse",
       techStack: ["Side Project", "Machine Learning", "Python", "OpenCV", "Tensorflow"],
       description:
@@ -134,6 +137,17 @@ export const RESUME_DATA = {
       //   label: "github.com",
       //   href: "",
       // },
+    },
+    {
+      title: "CV Porfolio",
+      techStack: ["TypeScript", "React", "Tailwind CSS", "shadcn-ui", "Nextjs"],
+      description:
+        "This very website that you are looking at right now.👀",
+
+      link: {
+        label: "",
+        href: "",
+      },
     },
     {
       title: "Habitable Exoplanets",
