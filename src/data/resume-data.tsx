@@ -26,7 +26,7 @@ export const RESUME_DATA = {
   location: "Kolkata, India",
   locationLink: "https://www.google.com/maps/place/Kolkata",
   about:
-    "CS Engineer focused on building products with extra attention to detail",
+    "Engineer 💻| Developer 🧑🏻‍💻| Space Enthusiast 🚀 Trying to create things which create value for people 🪄",
   summary:
     "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec lacinia tincidunt, nunc nunc ldolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
   avatarUrl: "myImage",
