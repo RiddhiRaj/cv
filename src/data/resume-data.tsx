@@ -126,7 +126,7 @@ export const RESUME_DATA = {
         "Streamlit-based AI Assistant using Google Gemini and Stable Diffusion XL from OctoAI for chatbot interaction, image captioning, and text-to-image generation",
       link: {
         label: "github.com",
-        href: "https://github.com/RiddhiRaj/gemini-sdxl",
+        href: "",
       },
     },
     {
