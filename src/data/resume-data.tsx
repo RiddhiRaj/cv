@@ -92,11 +92,11 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
-    "HTML","CSS","JavaScript","C","C++","Java",
+    "HTML","CSS","JavaScript","C","Python","Java",
     "Latex","Markdown",
     "Bootstrap","Tailwind CSS","Springboot","Flask",
     "MySql","Oracle","Node.js",
-    "Python","Scikit learn","Numpy","Panda","Tensorflow", "Keras", "PyTorch", "OpenCV",
+    "Huggingface Transformers","Scikit learn","Numpy","Panda","Tensorflow", "Keras", "PyTorch", "OpenCV","Streamlit","Langchain","Groq",
   ],
   projects: [
     {
@@ -107,6 +107,26 @@ export const RESUME_DATA = {
       link: {
         label: "riddhiraj.netlify.app",
         href: "https://riddhiraj.netlify.app/",
+      },
+    },
+    {
+      title: "GroqChat with Llama3-8B",
+      techStack: ["Side Project","RAG", "ML", "Python", "Llama3-8B", "Groq", "Streamlit", "Langchain", "Huggingface Transformers","FAISS"],
+      description:
+        "Streamlit-based RAG system as a document assistant, with Groq API’s Llama3-8B, HuggingFace’s sentence-transformers for embedding, & LangChain with FAISS for efficient vector retrieval.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/RiddhiRaj/groq-rag",
+      },
+    },
+    {
+      title: "Finetuned Llama2 using LoRA and QLoRA",
+      techStack: ["Side Project", "ML", "Python", "Llama2-7B", "LoRA", "QLoRA", "Google Colab", "Supervised Fine Tuning", "Transformer Reinforcement Learning"],
+      description:
+        "Streamlit-based AI Assistant using Google Gemini and Stable Diffusion XL from OctoAI for chatbot interaction, image captioning, and text-to-image generation",
+      link: {
+        label: "github.com",
+        href: "https://github.com/RiddhiRaj/gemini-sdxl",
       },
     },
     {
@@ -130,14 +150,14 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Hand Gesture Controlled Mouse",
-      techStack: ["Side Project", "Machine Learning", "Python", "OpenCV", "Tensorflow"],
+      title: "Gemini Chat-n-Vision Assistant",
+      techStack: ["Side Project", "ML", "Python", "Google Gemini", "SDXL", "Streamlit", "OctoAI"],
       description:
-        "Interactive Human-Computer Interaction (HCI) system that allows users to control their computer's mouse pointer using certain hand gestures",
-      // link: {
-      //   label: "github.com",
-      //   href: "",
-      // },
+        "Streamlit-based AI Assistant using Google Gemini and Stable Diffusion XL from OctoAI for chatbot interaction, image captioning, and text-to-image generation",
+      link: {
+        label: "github.com",
+        href: "https://github.com/RiddhiRaj/gemini-sdxl",
+      },
     },
     {
       title: "CV Porfolio",
