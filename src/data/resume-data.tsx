@@ -96,9 +96,49 @@ export const RESUME_DATA = {
     "Latex","Markdown",
     "Bootstrap","Tailwind CSS","Springboot","Flask",
     "MySql","Oracle","Node.js",
-    "Huggingface Transformers","Scikit learn","Numpy","Panda","Tensorflow", "Keras", "PyTorch", "OpenCV","Streamlit","Langchain","Groq",
+    "HF Transformers","scikit-learn","Numpy","Panda","Tensorflow", "Keras", "PyTorch", "OpenCV","OpenAI Gynasium","Streamlit","Langchain","Groq","Matplotlib","Graphviz"
   ],
   projects: [
+    {
+      title: "Lunar Lander with NEAT",
+      techStack: ["Side Project","Python","miniconda","OpenAI Gymnasium","Matplotlib","Graphviz"],
+      description: "Neuroevolution algorithm (NEAT) to solve the Lunar Lander problem in OpenAI's Gymnasium environment",
+      // logo:
+      link: {
+        label: "",
+        href: "",
+      },
+    },
+    {
+      title: "Kanji Generator with Stable Diffusion",
+      techStack: ["Side Project","Python","HF Transformers","Diffusers","LoRA"],
+      description: "Fine-tuned Stable Diffusion v1.4 using LoRA for generating Kanji characters based on English definitions",
+      // logo:
+      link: {
+        label: "",
+        href: "",
+      },
+    },
+    {
+      title: "Multi-Agent Debate using TinyLlama",
+      techStack: ["Side Project","LLMs","TinyLlama 1.1B","PyTorch","Python","Transformers", "GSM8K", "Matplotlib"],
+      description: "Multi-agent debate system using TinyLlama-1.1B-Chat and the GSM8K dataset",
+      // logo:
+      link: {
+        label: "",
+        href: "",
+      },
+    },
+    {
+      title: "Character-Level Language Model with RoPE",
+      techStack: ["Side Project","Python","PyTorch","Transformers","NanoGPT","RoPE","enwik8"],  
+      description: "Enhanced a GPT-style transformer with Rotary Position Embeddings for character-level language modeling, trained on the enwik8 dataset and compared against a baseline",
+      // logo:
+      link: {
+        label: "RotaryCharTransformer",
+        href: "https://github.com/RiddhiRaj/RotaryCharTransformer",
+      },
+    },
     {
       title: "Personal Portfolio",
       techStack: ["Side Project","React","Sanity","Vite","Sass","Netlify"],
