@@ -1,7 +1,6 @@
 "use client";
 
 import * as React from "react";
-
 import {
   CommandDialog,
   CommandEmpty,
@@ -35,20 +34,13 @@ export const CommandMenu = ({ links }: Props) => {
 
   return (
     <>
-      <small className="hidden lg:[display:none] [@media(hover:none)]:hidden [@media(pointer:coarse)]:hidden text-sm text-muted-foreground transition-colors">
-        Press{" "}
-        <kbd className="pointer-events-none inline-flex h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium text-muted-foreground opacity-100">
-          <span className="text-xs">⌘</span>J
-        </kbd>{" "}
-        to open command menu
-      </small>
       <Button
         onClick={() => setOpen((open) => !open)}
         variant="outline"
         size="icon"
-        className="fixed bottom-4 right-4 flex rounded-full shadow-2xl print:hidden xl:hidden"
+        className="flex rounded-full shadow-2xl print:hidden visible"
       >
-        <CommandIcon className="my-6 size-6" />
+        <CommandIcon className="size-6" />
       </Button>
       <CommandDialog open={open} onOpenChange={setOpen}>
         <CommandInput placeholder="Type a command or search..." />
