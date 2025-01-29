@@ -41,7 +41,7 @@ export const CommandMenu = ({ links }: Props) => {
         className="relative transition-all duration-300 hover:scale-110 rounded-full h-8 w-8 
           bg-white/10 dark:bg-slate-950/10
           backdrop-blur-md backdrop-filter 
-          border border-white/20 dark:border-white/10
+          border-[1.5px] border-gray-300/30 dark:border-white/20
           shadow-[0_4px_15px_rgba(0,0,0,0.08)] dark:shadow-[0_4px_15px_rgba(0,0,0,0.25)]
           hover:bg-white/20 dark:hover:bg-slate-950/20"
       >
