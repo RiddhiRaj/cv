@@ -13,7 +13,12 @@ export function ThemeToggle() {
     <Button
       variant="outline"
       size="icon"
-      className="relative transition-transform duration-300 hover:scale-110 rounded-full h-8 w-8"
+      className="relative transition-all duration-300 hover:scale-110 rounded-full h-8 w-8 
+        bg-white/10 dark:bg-slate-950/10
+        backdrop-blur-md backdrop-filter 
+        border border-white/20 dark:border-white/10
+        shadow-[0_4px_15px_rgba(0,0,0,0.08)] dark:shadow-[0_4px_15px_rgba(0,0,0,0.25)]
+        hover:bg-white/20 dark:hover:bg-slate-950/20"
       onClick={() => setTheme(theme === "light" ? "dark" : "light")}
     >
       <Sun className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all duration-300 dark:-rotate-90 dark:scale-0" />
