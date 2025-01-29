@@ -130,7 +130,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Character-Level Language Model with RoPE",
+      title: "Char-Level Language Model w/ RoPE",
       techStack: ["Python","PyTorch","Transformers","NanoGPT","RoPE","enwik8"],  
       description: "Enhanced a GPT-style transformer with Rotary Position Embeddings for character-level language modeling, trained on the enwik8 dataset and compared against a baseline",
       // logo:
