@@ -18,7 +18,8 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-12 md:p-16">
-      <div className="fixed top-0 right-0 z-50 flex items-center gap-2 p-4">
+      <div className="fixed top-4 md:top-0 right-0 z-50 flex items-center gap-2 p-4">
+ 
         <ThemeToggle />
         <CommandMenu
           links={[
