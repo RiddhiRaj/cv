@@ -105,7 +105,7 @@ export const RESUME_DATA = {
       description: "Neuroevolution algorithm (NEAT) to solve the Lunar Lander problem in OpenAI's Gymnasium environment",
       // logo:
       link: {
-        label: "",
+        label: "LunarLander",
         href: "https://github.com/RiddhiRaj/lunar-lander",
       },
     },
