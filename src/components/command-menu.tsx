@@ -38,9 +38,9 @@ export const CommandMenu = ({ links }: Props) => {
         onClick={() => setOpen((open) => !open)}
         variant="outline"
         size="icon"
-        className="flex rounded-full shadow-2xl print:hidden visible"
+        className="relative transition-transform duration-150 hover:scale-110 rounded-full h-8 w-8 shadow-2xl print:hidden"
       >
-        <CommandIcon className="size-6" />
+        <CommandIcon className="size-4" />
       </Button>
       <CommandDialog open={open} onOpenChange={setOpen}>
         <CommandInput placeholder="Type a command or search..." />
