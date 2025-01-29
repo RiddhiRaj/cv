@@ -28,7 +28,7 @@ export const RESUME_DATA = {
   about:
     "Engineer 💻| Developer 🧑🏻‍💻| Space Enthusiast 🚀 Trying to create things which create value for people 🪄",
   summary:
-    "CS AI & ML engineering student at UEM, Kolkata with an insatiable curiosity for emerging technologies and their impact on our world. My passion for these subjects extends to various domains, with a particular fascination for Machine Learning and Space exploration. I eagerly seek opportunities to engage in meaningful discussions and aspire to contribute to development and research endeavors in these fields. Open to collaborations and new opportunities!",
+    "CS AI/ML engineering student at UEM, Kolkata with an insatiable curiosity for emerging technologies and their impact on our world. My passion for these subjects extends to various domains, with a particular fascination for Machine Learning and Space Exploration. I eagerly seek opportunities to engage in meaningful discussions and aspire to contribute to development and research endeavors in these fields. Open to collaborations and new opportunities!",
 
   avatarUrl: "https://i.postimg.cc/qM879K42/rrg.jpg",
   personalWebsiteUrl: "https://riddhiraj.netlify.app/",
@@ -101,17 +101,17 @@ export const RESUME_DATA = {
   projects: [
     {
       title: "Lunar Lander with NEAT",
-      techStack: ["Side Project","Python","miniconda","OpenAI Gymnasium","Matplotlib","Graphviz"],
+      techStack: ["Python","miniconda","OpenAI Gymnasium","Matplotlib","Graphviz"],
       description: "Neuroevolution algorithm (NEAT) to solve the Lunar Lander problem in OpenAI's Gymnasium environment",
       // logo:
       link: {
         label: "",
-        href: "",
+        href: "https://github.com/RiddhiRaj/lunar-lander",
       },
     },
     {
       title: "Kanji Generator with Stable Diffusion",
-      techStack: ["Side Project","Python","HF Transformers","Diffusers","LoRA"],
+      techStack: ["Python","HF Transformers","Diffusers","LoRA"],
       description: "Fine-tuned Stable Diffusion v1.4 using LoRA for generating Kanji characters based on English definitions",
       // logo:
       link: {
@@ -121,7 +121,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Multi-Agent Debate using TinyLlama",
-      techStack: ["Side Project","LLMs","TinyLlama 1.1B","PyTorch","Python","Transformers", "GSM8K", "Matplotlib"],
+      techStack: ["LLMs","TinyLlama 1.1B","PyTorch","Python","Transformers", "GSM8K", "Matplotlib"],
       description: "Multi-agent debate system using TinyLlama-1.1B-Chat and the GSM8K dataset",
       // logo:
       link: {
@@ -131,7 +131,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Character-Level Language Model with RoPE",
-      techStack: ["Side Project","Python","PyTorch","Transformers","NanoGPT","RoPE","enwik8"],  
+      techStack: ["Python","PyTorch","Transformers","NanoGPT","RoPE","enwik8"],  
       description: "Enhanced a GPT-style transformer with Rotary Position Embeddings for character-level language modeling, trained on the enwik8 dataset and compared against a baseline",
       // logo:
       link: {
@@ -141,7 +141,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Personal Portfolio",
-      techStack: ["Side Project","React","Sanity","Vite","Sass","Netlify"],
+      techStack: ["React","Sanity","Vite","Sass","Netlify"],
       description: "My peronsal portfolio website built with React and Sanity",
       // logo:
       link: {
@@ -151,7 +151,7 @@ export const RESUME_DATA = {
     },
     {
       title: "GroqChat with Llama3-8B",
-      techStack: ["Side Project","RAG", "ML", "Python", "Llama3-8B", "Groq", "Streamlit", "Langchain", "Huggingface Transformers","FAISS"],
+      techStack: ["RAG", "ML", "Python", "Llama3-8B", "Groq", "Streamlit", "Langchain", "Huggingface Transformers","FAISS"],
       description:
         "Streamlit-based RAG system as a document assistant, with Groq API’s Llama3-8B, HuggingFace’s sentence-transformers for embedding, & LangChain with FAISS for efficient vector retrieval.",
       link: {
@@ -161,7 +161,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Finetuned Llama2 using LoRA and QLoRA",
-      techStack: ["Side Project", "ML", "Python", "Llama2-7B", "LoRA", "QLoRA", "Google Colab", "Supervised Fine Tuning", "Transformer Reinforcement Learning"],
+      techStack: ["ML", "Python", "Llama2-7B", "LoRA", "QLoRA", "Google Colab", "Supervised Fine Tuning", "Transformer Reinforcement Learning"],
       description:
         "Streamlit-based AI Assistant using Google Gemini and Stable Diffusion XL from OctoAI for chatbot interaction, image captioning, and text-to-image generation",
       link: {
@@ -171,7 +171,7 @@ export const RESUME_DATA = {
     },
     {
       title: "AI Irrigation System",
-      techStack: ["Side Project", "Python", "Flask", "Tailwind CSS", "JS", "pandas", "scikit-learn"],
+      techStack: ["Python", "Flask", "Tailwind CSS", "JS", "pandas", "scikit-learn"],
       description:
         "Smart Irrigation Predictor system focused on resource management within agricultural environments",
       link: {
@@ -191,7 +191,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Gemini Chat-n-Vision Assistant",
-      techStack: ["Side Project", "ML", "Python", "Google Gemini", "SDXL", "Streamlit", "OctoAI"],
+      techStack: ["ML", "Python", "Google Gemini", "SDXL", "Streamlit", "OctoAI"],
       description:
         "Streamlit-based AI Assistant using Google Gemini and Stable Diffusion XL from OctoAI for chatbot interaction, image captioning, and text-to-image generation",
       link: {
@@ -232,7 +232,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Minimal Portfolio",
-      techStack: ["Side Project", "HTML", "CSS", "JS", "Github Pages"],
+      techStack: ["HTML", "CSS", "JS", "Github Pages"],
       description: "My first portfolio website built with HTML, CSS, and JS",
       link: {
         label: "riddhiraj.github.io",
@@ -251,9 +251,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Meow",
-      techStack: [
-        "Side Project","HTML","CSS",
-      ],
+      techStack: ["HTML","CSS",],
       description:
         "A fun little cat website",
       link: {
@@ -263,7 +261,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Krypt",
-      techStack: ["Side Project", "Solidity", "Smart Contracts", "Blockchain", "React", "Tailwind CSS", "Metamask"],
+      techStack: ["Solidity", "Smart Contracts", "Blockchain", "React", "Tailwind CSS", "Metamask"],
       description:
         "A website to upload files, share securely across the world using blockchain technology",
       link: {
@@ -273,7 +271,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Startup Name Generator",
-      techStack: ["Side Project", "Flutter", "Dart"],
+      techStack: ["Flutter", "Dart"],
       description:
         "A website to generate startup names done by combining two words together",
       link: {
