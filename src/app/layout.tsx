@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react";
-import { Outfit } from "next/font/google";
+import { Outfit, Chakra_Petch } from "next/font/google";
 import "./globals.css";
 import React from "react";
 import { ThemeProvider } from "@/components/theme-provider";
@@ -13,6 +13,12 @@ export const metadata: Metadata = {
 const outfit = Outfit({
   subsets: ["latin"],
   display: "swap",
+});
+
+const chakraPetch = Chakra_Petch({
+  subsets: ["latin"],
+  display: "swap",
+  weight: ["300", "400", "500", "600", "700"],
 });
 
 export default function RootLayout({
