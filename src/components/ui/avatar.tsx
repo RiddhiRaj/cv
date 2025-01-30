@@ -13,6 +13,9 @@ const Avatar = React.forwardRef<
     ref={ref}
     className={cn(
       "relative flex h-10 w-10 shrink-0 overflow-hidden rounded-xl",
+      "transition-all duration-300 ease-in-out",
+      "dark:shadow-[0_0_30px_rgba(255,255,255,0.15)]", // White glow in dark mode
+      "dark:hover:shadow-[0_0_30px_rgba(255,255,255,0.3)]", // Enhanced glow on hover in dark mode
       className,
     )}
     {...props}
