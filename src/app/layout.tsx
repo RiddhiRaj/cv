@@ -21,12 +21,6 @@ const chakraPetch = Chakra_Petch({
   weight: ["300", "400", "500", "600", "700"],
 });
 
-const cinzel = Cinzel({
-  subsets: ["latin"],
-  display: "swap",
-  weight: ["400", "500", "600", "700"],
-});
-
 const merriweather = Merriweather({
   subsets: ["latin"],
   display: "swap",
@@ -39,7 +33,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={merriweather.className} suppressHydrationWarning>
+    <html lang="en" className={chakraPetch.className} suppressHydrationWarning>
     <body className="transition-colors duration-150">
         <ThemeProvider
           attribute="class"
