@@ -35,7 +35,7 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "University of Engineering and Management, Kolkata",
+      school: "University of Engineering & Management, Kolkata",
       degree: "B.Tech. → Computer Science Engineering specializing in Artificial Intelligence and Machine Learning",
       start: "2021",
       end: "2025",
@@ -73,7 +73,7 @@ export const RESUME_DATA = {
   ],
   skills: [
     "HTML","CSS","JavaScript","C","Python","Java",
-    "Latex","Markdown","Blender",
+    "Latex","Markdown","Blender","Git",
     "Bootstrap","Tailwind CSS","Sass","Springboot","Flask",
     "MySql","Oracle","Node.js",
     "HF Transformers","Numpy","Panda","Tensorflow", "Keras", "PyTorch", "OpenCV","OpenAI Gynasium","Streamlit","Langchain","Groq","Matplotlib","Graphviz"
