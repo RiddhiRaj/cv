@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react";
-import { Outfit, Chakra_Petch } from "next/font/google";
+import { Outfit, Chakra_Petch, Cinzel, Merriweather } from "next/font/google";
 import "./globals.css";
 import React from "react";
 import { ThemeProvider } from "@/components/theme-provider";
@@ -21,13 +21,25 @@ const chakraPetch = Chakra_Petch({
   weight: ["300", "400", "500", "600", "700"],
 });
 
+const cinzel = Cinzel({
+  subsets: ["latin"],
+  display: "swap",
+  weight: ["400", "500", "600", "700"],
+});
+
+const merriweather = Merriweather({
+  subsets: ["latin"],
+  display: "swap",
+  weight: ["300", "400", "700", "900"],
+});
+
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={outfit.className} suppressHydrationWarning>
+    <html lang="en" className={merriweather.className} suppressHydrationWarning>
     <body className="transition-colors duration-150">
         <ThemeProvider
           attribute="class"
