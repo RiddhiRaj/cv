@@ -16,7 +16,7 @@ const Avatar = React.forwardRef<
       "transition-all duration-300 ease-in-out",
       "shadow-[0_0_30px_rgba(255,215,0,0.25)]", // Golden glow in light mode
       "hover:shadow-[0_0_30px_rgba(255,215,0,0.4)]", // Enhanced golden glow on hover in light mode
-      "dark:shadow-[0_0_30px_rgba(255,255,255,0.25)]", // White glow in dark mode
+      "dark:shadow-[0_0_30px_rgba(255,255,255,0.20)]", // White glow in dark mode
       "dark:hover:shadow-[0_0_30px_rgba(255,255,255,0.3)]", // Enhanced glow on hover in dark mode
       className,
     )}
