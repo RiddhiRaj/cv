@@ -6,7 +6,7 @@ export const RESUME_DATA = {
   location: "Kolkata, India",
   locationLink: "https://www.google.com/maps/place/Kolkata",
   about:
-    "Engineer 💻 | Developer 🧑🏻‍💻 | Space Enthusiast 🚀 | Trying to create things which create value for people 🪄",
+    "Engineer 💻 ⁘ Developer 🧑🏻‍💻 ● Space Enthusiast 🚀 • Trying to create things which create ◉ value for people 🪄",
   summary:
     "CS AI/ML engineering student at UEM, Kolkata with an insatiable curiosity for emerging technologies and their impact on our world. My passion for these subjects extends to various domains, with a particular fascination for Machine Learning and Space Exploration. I eagerly seek opportunities to engage in meaningful discussions and aspire to contribute to development and research endeavors in these fields. Open to collaborations and new opportunities!",
 
