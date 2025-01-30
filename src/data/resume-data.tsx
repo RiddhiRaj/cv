@@ -52,7 +52,7 @@ export const RESUME_DATA = {
     {
       company: "Calcutta Electric Supply Corporation Ltd.",
       link: "",
-      badges: ["Intern"],
+      badges: ["On-site","Intern"],
       title: "Java Developer",
       // logo: logo,
       start: "June 5, 2023",
