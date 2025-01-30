@@ -75,7 +75,7 @@ export const RESUME_DATA = {
     "HTML","CSS","JavaScript","C","Python","Java",
     "Latex","Markdown","Blender","Git",
     "Bootstrap","Tailwind CSS","Sass","Springboot","Flask",
-    "MySql","Oracle","Node.js",
+    "MySql","Oracle","Node.js","Conda",
     "HF Transformers","Numpy","Panda","Tensorflow", "Keras", "PyTorch", "OpenCV","OpenAI Gynasium","Streamlit","Langchain","Groq","Matplotlib","Graphviz","Linux"
   ],
   projects: [
