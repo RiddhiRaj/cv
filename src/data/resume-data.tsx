@@ -36,13 +36,13 @@ export const RESUME_DATA = {
   education: [
     {
       school: "University of Engineering & Management, Kolkata",
-      degree: "B.Tech. → Computer Science Engineering specializing in Artificial Intelligence and Machine Learning",
+      degree: "B.Tech. → Computer Science Engineering specializing in Artificial Intelligence & Machine Learning",
       start: "2021",
       end: "2025",
     },
     {
       school: "The Modern Academy, Kolkata",
-      degree: "Higher Secondary Education (10+2) specializing in Science with Computer Science and Mathematics as major subjects",
+      degree: "Higher Secondary Education (10+2) specializing in Science with Computer Science & Mathematics as major subjects",
       start: "2008",
       end: "2021",
     },
@@ -58,7 +58,7 @@ export const RESUME_DATA = {
       start: "June 5, 2023",
       end: "July 1, 2023",
       description:
-        "Engineered a scalable system for Meter Inspection, streamlining data collection and analysis processes. Used Oracle databases to efficiently manage and store critical data, ensuring data integrity and reliability, with Spring Boot to enhance system performance, optimize resource utilization, and simplify application deployment",
+        "Engineered a scalable system for Meter Inspection, streamlining data collection & analysis processes. Used Oracle databases to efficiently manage & store critical data, ensuring data integrity & reliability, with Spring Boot to enhance system performance, optimize resource utilization, & simplify application deployment",
     },
     
     {
@@ -68,7 +68,7 @@ export const RESUME_DATA = {
       title: "Online Training Programme",
       start: "July 20, 2023",
       end: "August 7, 2023",
-      description: "Explored the significance and history of space research and exploration, & ISRO's role in it; astrophysical principles,including celestial phenomena, cosmic structures, and the behavior of matter and energy in the universe and delved into astrochemistry, exploring the chemical composition of cosmic objects.",
+      description: "Explored the significance and history of space research and exploration, & ISRO's role in it; astrophysical principles,including celestial phenomena, cosmic structures, & the behavior of matter & energy in the universe & delved into astrochemistry, exploring the chemical composition of cosmic objects.",
     },
   ],
   skills: [
