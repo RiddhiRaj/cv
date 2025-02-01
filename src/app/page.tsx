@@ -57,7 +57,9 @@ export default function Page() {
                   target="_blank"
                 >
                   <RotatingGlobe />
-                  {RESUME_DATA.location}
+                  <span className="mt-0.5">  {/* Added this wrapper with margin-top */}
+                    {RESUME_DATA.location}
+                  </span>
                 </a>
               </span>
             </div>
