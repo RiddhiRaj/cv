@@ -122,7 +122,7 @@ export default function Page() {
           <h2 className="text-xl font-bold">Work Experience</h2>
           {RESUME_DATA.work.map((work) => {
             return (
-              <Card key={work.company}>
+              <Card key={work.company} className="mb-4">
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
                     <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
@@ -161,7 +161,7 @@ export default function Page() {
           <h2 className="text-xl font-bold">Education</h2>
           {RESUME_DATA.education.map((education) => {
             return (
-              <Card key={education.school}>
+              <Card key={education.school} className="mb-4">
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
                     <h3 className="font-semibold leading-none">
