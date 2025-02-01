@@ -81,3 +81,7 @@
 .print-force-new-page {
   page-break-before: always;
 }
+
+.rotating-globe {
+  background-color: transparent !important;
+}

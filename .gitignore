@@ -40,3 +40,4 @@ next-env.d.ts
 
 # specific components
 src/components/ui/section.tsx
+src/components/RotatingGlobe.tsx
