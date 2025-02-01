@@ -37,7 +37,3 @@ next-env.d.ts
 
 # ide
 .idea
-
-# specific components
-src/components/ui/section.tsx
-src/components/RotatingGlobe.tsx
