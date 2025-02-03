@@ -42,7 +42,7 @@ export const RESUME_DATA = {
     },
     {
       school: "The Modern Academy, Kolkata",
-      degree: "Higher Secondary Education (10+2) specializing in Science with Computer Science & Mathematics as major subjects",
+      degree: "Higher Secondary Education (10+2) → specializing in Science with Computer Science & Mathematics as major subjects",
       start: "2008",
       end: "2021",
     },
@@ -76,13 +76,13 @@ export const RESUME_DATA = {
     "Latex","Markdown","Blender","Git",
     "Bootstrap","Tailwind CSS","Sass","Springboot","Flask",
     "MySql","Oracle","Node.js","Conda",
-    "HF Transformers","Numpy","Panda","Tensorflow", "Keras", "PyTorch", "OpenCV","OpenAI Gynasium","Streamlit","Langchain","Groq","Matplotlib","Graphviz","Linux"
+    "HF Transformers","Numpy","Panda","Tensorflow", "Keras", "PyTorch", "OpenCV","OpenAI Gynasium","Streamlit","Langchain","Groq","Matplotlib","Graphviz","Linux",
   ],
   projects: [
     {
       title: "Lunar Lander with NEAT",
-      techStack: ["Python","miniconda","OpenAI Gymnasium","Matplotlib","Graphviz"],
-      description: "Neuroevolution algorithm (NEAT) to solve the Lunar Lander problem in OpenAI's Gymnasium environment",
+      techStack: ["Python","miniconda","OpenAI Gymnasium","Matplotlib","Graphviz","NEAT", "Reinforcement Learning"],
+      description: "Neuroevolution algorithm (NEAT) to solve the Lunar Lander problem in OpenAI's Gymnasium environment, essentially using Reinforcement Learning to train a neural network to land a spacecraft on the moon",
       // logo:
       link: {
         label: "LunarLander",
@@ -92,7 +92,7 @@ export const RESUME_DATA = {
     {
       title: "Kanji Generator with Stable Diffusion",
       techStack: ["Python","HF Transformers","Diffusers","LoRA"],
-      description: "Fine-tuned Stable Diffusion v1.4 using LoRA for generating Kanji characters based on English definitions",
+      description: "Fine-tuned Stable Diffusion v1.4 using LoRA for generating Kanji (a system of Japanese writing using Chinese characters) characters based on English definitions",
       // logo:
       link: {
         label: "",
@@ -102,7 +102,7 @@ export const RESUME_DATA = {
     {
       title: "Multi-Agent Debate using TinyLlama",
       techStack: ["LLMs","TinyLlama 1.1B","PyTorch","Python","Transformers", "GSM8K", "Matplotlib"],
-      description: "Multi-agent debate system using TinyLlama-1.1B-Chat and the GSM8K dataset",
+      description: "Multi-agent debate system using TinyLlama-1.1B-Chat and the GSM8K dataset done in Jupyter Notebook",
       // logo:
       link: {
         label: "",
