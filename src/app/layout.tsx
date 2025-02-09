@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react";
-import { Outfit, Chakra_Petch, Cinzel, Merriweather } from "next/font/google";
+import { Outfit, Chakra_Petch, Merriweather, Space_Mono } from "next/font/google";
 import "./globals.css";
 import React from "react";
 import { ThemeProvider } from "@/components/theme-provider";
@@ -27,13 +27,19 @@ const merriweather = Merriweather({
   weight: ["300", "400", "700", "900"],
 });
 
+const spaceMono = Space_Mono({
+  weight: ['400', '700'],
+  subsets: ['latin'],
+  variable: '--font-space-mono',
+});
+
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={chakraPetch.className} suppressHydrationWarning>
+    <html lang="en" className={merriweather.className} suppressHydrationWarning>
     <body className="transition-colors duration-150">
         <ThemeProvider
           attribute="class"
