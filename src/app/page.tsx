@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
 import { ThemeToggle } from "@/components/theme-toggle"
-import { RotatingGlobe } from "@/components/RotatingGlobe";
+// import { RotatingGlobe } from "@/components/RotatingGlobe";
 
 
 export const metadata: Metadata = {
@@ -56,7 +56,7 @@ export default function Page() {
                   // href={RESUME_DATA.locationLink}
                   target="_blank"
                 >
-                  <RotatingGlobe />
+                  <GlobeIcon className="size-4" />
                   <span className="mt-0.5">  {/* Added this wrapper with margin-top */}
                     {RESUME_DATA.location}
                   </span>

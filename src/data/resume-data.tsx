@@ -3,7 +3,7 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 export const RESUME_DATA = {
   name: "Riddhi Raj Ghosh",
   initials: "RRG",
-  location: "Kolkata, India",
+  location: "India",
   locationLink: "https://www.google.com/maps/place/Kolkata",
   about:
     "Engineer 💻 ● Developer 🧑🏻‍💻 ● Space Enthusiast 🪐 ● Trying to create things which create value for people ",
