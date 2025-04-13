@@ -7,21 +7,32 @@ import { cn } from "@/lib/utils";
 const Avatar = React.forwardRef<
   React.ElementRef<typeof AvatarPrimitive.Root>,
   React.ComponentPropsWithoutRef<typeof AvatarPrimitive.Root>
->(({ className, ...props }, ref) => (
-  <AvatarPrimitive.Root
-    ref={ref}
-    className={cn(
-      "relative flex h-10 w-10 shrink-0 overflow-hidden rounded-xl",
-      "transition-all duration-300 ease-in-out",
-      "shadow-[0_0_30px_rgba(255,215,0,0.25)]", // Golden glow in light mode
-      "hover:shadow-[0_0_30px_rgba(255,215,0,0.4)]", // Enhanced golden glow on hover in light mode
-      "dark:shadow-[0_0_30px_rgba(255,255,255,0.20)]", // White glow in dark mode
-      "dark:hover:shadow-[0_0_30px_rgba(255,255,255,0.3)]", // Enhanced glow on hover in dark mode
-      className,
-    )}
-    {...props}
-  />
-));
+>(({ className, ...props }, ref) => {
+  const [isJiggling, setIsJiggling] = React.useState(false);
+
+  const handleClick = () => {
+    setIsJiggling(true);
+    setTimeout(() => setIsJiggling(false), 500); // Match animation duration
+  };
+
+  return (
+    <AvatarPrimitive.Root
+      ref={ref}
+      onClick={handleClick}
+      className={cn(
+        "relative flex h-10 w-10 shrink-0 overflow-hidden rounded-xl",
+        "transition-all duration-300 ease-in-out",
+        "shadow-[0_0_30px_rgba(255,215,0,0.25)]", // Golden glow in light mode
+        "hover:shadow-[0_0_30px_rgba(255,215,0,0.4)]", // Enhanced golden glow on hover in light mode
+        "dark:shadow-[0_0_30px_rgba(255,255,255,0.20)]", // White glow in dark mode
+        "dark:hover:shadow-[0_0_30px_rgba(255,255,255,0.3)]", // Enhanced glow on hover in dark mode
+        isJiggling && "animate-jiggle", // Apply jiggle animation conditionally
+        className,
+      )}
+      {...props}
+    />
+  );
+});
 Avatar.displayName = AvatarPrimitive.Root.displayName;
 
 const AvatarImage = React.forwardRef<
