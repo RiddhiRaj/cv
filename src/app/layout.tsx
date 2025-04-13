@@ -26,10 +26,9 @@ export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
-}) {
-  return (
+}) {  return (
     <html lang="en" className={merriweather.className} suppressHydrationWarning>
-    <body className="transition-colors duration-150">
+    <body className="transition-colors duration-150 bg-background">
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
