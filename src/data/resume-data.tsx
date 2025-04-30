@@ -90,13 +90,23 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Mars Calendar",
+      techStack: ["Three JS","React","Vite","JavaScript", "CSS"],
+      description: "A calendar web-app for Mars' showing events (like time, sol dates, etc.). Based on the Darian calender (24 months named after Sanskrit and Latin zodiac signs) and Mars Sol Date epoch proposed by NASA's Michael Allison.",
+      // logo:
+      link: {
+        label: "MarsCalendar",
+        href: "https://marscalendar.vercel.app/",
+      },
+    },
+    {
       title: "Kanji Generator with Stable Diffusion",
       techStack: ["Python","HF Transformers","Diffusers","LoRA"],
       description: "Fine-tuned Stable Diffusion v1.4 using LoRA for generating Kanji (a system of Japanese writing using Chinese characters) characters based on English definitions",
       // logo:
       link: {
-        label: "",
-        href: "",
+        label: "KanjiGenerator",
+        href: "https://github.com/RiddhiRaj/kanji-generator",
       },
     },
     {
