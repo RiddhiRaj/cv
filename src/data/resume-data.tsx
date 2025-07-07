@@ -81,12 +81,22 @@ export const RESUME_DATA = {
   projects: [
     {
       title: "Lunar Lander with NEAT",
-      techStack: ["Python","miniconda","OpenAI Gymnasium","Matplotlib","Graphviz","NEAT", "Reinforcement Learning"],
+      techStack: ["Python","miniconda","NEAT","OpenAI Gymnasium","Matplotlib","Graphviz","Reinforcement Learning"],
       description: "Neuroevolution algorithm (NEAT) to solve the Lunar Lander problem in OpenAI's Gymnasium environment, essentially using Reinforcement Learning to train a neural network to land a spacecraft on the moon",
       // logo:
       link: {
         label: "LunarLander",
         href: "https://github.com/RiddhiRaj/lunar-lander",
+      },
+    },
+    {
+      title: "Flight Delay Prediction using Spatio-Temporal Graph Attention Network",
+      techStack: ["Research Paper","Python","PyTorch","Google Colab","LSTM", "1D Conv","Graph Attention Networks"],
+      description: "Research Paper: Novel deep learning architecture, ST-GAT, to enhance the accuracy of flight delay prediction by modeling both temporal trends and spatial dependencies between airports",
+      // logo:
+      link: {
+        label: "ST-GAT",
+        href: "",
       },
     },
     {
