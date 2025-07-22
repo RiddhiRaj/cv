@@ -8,10 +8,10 @@ export const RESUME_DATA = {
   about:
     "Engineer 💻 ● Developer 🧑🏻‍💻 ● Space Enthusiast 🪐 ● Trying to create things which create value for people ",
   summary:
-    "CS AI/ML engineering student at IEM, Newtown (prev. UEM, Kolkata) with an insatiable curiosity for emerging tech & their impact on our world. My passion for these subjects extends to various domains, with a particular fascination for Machine Learning & Space Exploration. I eagerly seek opportunities to engage in meaningful discussions & aspire to contribute to development & research endeavors in these fields. Open to collaborations & new opportunities!",
+    "CS AI/ML engineering graduate (Class of 2025) at IEM, Newtown [prev. UEM, Kolkata] with an insatiable curiosity for emerging tech & their impact on our world. My passion for these subjects extends to various domains, with a particular fascination for Machine Learning & Space Exploration. I eagerly seek opportunities to engage in meaningful discussions & aspire to contribute to development & research endeavors in these fields. Open to collaborations & new opportunities!",
 
   avatarUrl: "https://i.postimg.cc/qM879K42/rrg.jpg",
-  personalWebsiteUrl: "https://riddhiraj.netlify.app/",
+  personalWebsiteUrl: "https://riddhiraj.in/",
   contact: {
     email: "rrg.connect@gmail.com",
     tel: "",
@@ -74,9 +74,10 @@ export const RESUME_DATA = {
   skills: [
     "HTML","CSS","JavaScript","C","Python","Java",
     "Latex","Markdown","Blender","Git",
-    "Bootstrap","Tailwind CSS","Sass","Springboot","Flask",
-    "MySql","Oracle","Node.js","Conda",
     "HF Transformers","Numpy","Panda","Tensorflow", "Keras", "PyTorch", "OpenCV","OpenAI Gynasium","Streamlit","Groq","Matplotlib","Graphviz","Linux",
+    "Bootstrap","Tailwind CSS","Sass","Springboot","Flask","React","Next.js","TypeScript","Vite",
+    "MySql","Oracle","Node.js","Conda",
+    
   ],
   projects: [
     {
@@ -97,6 +98,16 @@ export const RESUME_DATA = {
       link: {
         label: "ST-GAT",
         href: "",
+      },
+    },
+    {
+      title: "Adventure Atlas",
+      techStack: ["Next.js", "TypeScript", "Tailwind", "Simplex Noise", "Fractal Brownian Motion"],
+      description: "A fantasy map generator that uses Simplex Noise algorithms and Fractal Brownian Motion to procedurally generate terrain maps with customizable themes, elevation, & moisture systems. Real-time canvas rendering, multiple biome themes (Classic, Volcanic, Arctic, Desert Oasis, Mystical), and export capabilities in PNG/SVG formats.",
+      // logo:
+      link: {
+        label: "AdventureAtlas",
+        href: "https://mapgen.riddhiraj.in/",
       },
     },
     {
