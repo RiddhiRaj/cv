@@ -6,7 +6,7 @@ export const RESUME_DATA = {
   location: "India",
   locationLink: "https://www.google.com/maps/place/Kolkata",
   about:
-    "Engineer 💻 ● Developer 🧑🏻‍💻 ● Space Enthusiast 🪐 ● Trying to create things which create value for people ",
+    "Engineer - Developer - Space Enthusiast - Deeptech | Building things that drive civilizational progress 🚀",
   summary:
     "CS AI/ML engineering graduate (Class of 2025) at IEM, Newtown [prev. UEM, Kolkata] with an insatiable curiosity for emerging tech & their impact on our world. My passion for these subjects extends to various domains, with a particular fascination for Machine Learning & Space Exploration. I eagerly seek opportunities to engage in meaningful discussions & aspire to contribute to development & research endeavors in these fields. Open to collaborations & new opportunities!",
 
@@ -50,21 +50,37 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Vicharak",
+      link: "",
+      badges: ["Full-time", "On-site"],
+      title: "System Software Developer",
+      location: "Surat, India",
+      // logo: logo,
+      start: "Jan 2026",
+      end: "Present",
+      description:
+        "",
+    },
+
+    {
       company: "PCBL (TN) Ltd.",
       link: "",
       badges: ["Full-time", "On-site"],
       title: "Graduate Engineer Trainee - Smart Factory",
+      location: "Chennai, India",
       // logo: logo,
       start: "Nov 2025",
       end: "Dec 2025",
       description:
         "• Gained hands-on operational exposure to DCS (Distributed Control System), field instrumentation, and OT infrastructure, including server room, network topology and plant-wide automation workflows.\n• Conduct predictive maintenance using Emerson & SKF vibration sensors on motors, fans and rotating equipment, analyzing DE/NDE vibration signatures to assess asset health and prevent downtime.\n• Supported Smart Factory / Industry 4.0 initiatives by understanding data flow from sensors → DCS → OT servers, enabling future projects in digital monitoring and equipment health analytics.\n• Worked across CB and CPP units, learning end-to-end process operations, interlocks, equipment behavior, and safety systems to integrate operational knowledge with upcoming smart-automation solutions.",
     },
+
     {
       company: "Calcutta Electric Supply Corporation Ltd.",
       link: "",
       badges: ["Intern", "On-site"],
       title: "Java Developer",
+      location: "Kolkata, India",
       // logo: logo,
       start: "June 2023",
       end: "July 2023",
@@ -75,8 +91,9 @@ export const RESUME_DATA = {
     {
       company: "ISRO",
       link: "https://www.isro.gov.in",
-      badges: ["Remote"],
+      badges: [],
       title: "Online Training Programme",
+      location: "Remote",
       start: "July 2023",
       end: "August 2023",
       description: "Explored the significance and history of space research and exploration, & ISRO's role in it; astrophysical principles,including celestial phenomena, cosmic structures, & the behavior of matter & energy in the universe & delved into astrochemistry, exploring the chemical composition of cosmic objects.",

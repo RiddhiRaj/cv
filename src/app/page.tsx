@@ -128,7 +128,7 @@ export default function Page() {
           </p>
         </Section>
         <Section>
-          <h2 className="text-xl font-bold">Work Experience</h2>
+          <h2 className="text-xl font-bold mb-3">Work Experience</h2>
           {RESUME_DATA.work.map((work) => {
             return (
               <Card key={work.company} className="mb-4">
@@ -155,9 +155,16 @@ export default function Page() {
                     </div>
                   </div>
 
-                  <h4 className="font-mono text-sm leading-none">
-                    {work.title}
-                  </h4>
+                  <div className="flex items-center justify-between">
+                    <h4 className="font-mono text-sm leading-none">
+                      {work.title}
+                    </h4>
+                    {work.location && (
+                      <span className="text-xs text-muted-foreground">
+                        {work.location}
+                      </span>
+                    )}
+                  </div>
                 </CardHeader>
                 <CardContent className="mt-2 text-xs">
                   {work.description.includes("\n") ? (
