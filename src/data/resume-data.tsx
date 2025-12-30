@@ -65,7 +65,7 @@ export const RESUME_DATA = {
     {
       company: "PCBL (TN) Ltd.",
       link: "",
-      badges: ["Full-time", "On-site"],
+      badges: ["Full-time"],
       title: "Graduate Engineer Trainee - Smart Factory",
       location: "Chennai, India",
       // logo: logo,
@@ -78,7 +78,7 @@ export const RESUME_DATA = {
     {
       company: "Calcutta Electric Supply Corporation Ltd.",
       link: "",
-      badges: ["Intern", "On-site"],
+      badges: ["Intern"],
       title: "Java Developer",
       location: "Kolkata, India",
       // logo: logo,
