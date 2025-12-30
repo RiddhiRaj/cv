@@ -160,7 +160,15 @@ export default function Page() {
                   </h4>
                 </CardHeader>
                 <CardContent className="mt-2 text-xs">
-                  {work.description}
+                  {work.description.includes("\n") ? (
+                    <ul className="list-none space-y-1">
+                      {work.description.split("\n").map((point, index) => (
+                        <li key={index}>{point}</li>
+                      ))}
+                    </ul>
+                  ) : (
+                    work.description
+                  )}
                 </CardContent>
               </Card>
             );

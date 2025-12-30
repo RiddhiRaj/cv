@@ -50,13 +50,24 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "PCBL (TN) Ltd.",
+      link: "",
+      badges: ["Full-time", "On-site"],
+      title: "Graduate Engineer Trainee - Smart Factory",
+      // logo: logo,
+      start: "Nov 2025",
+      end: "Dec 2025",
+      description:
+        "• Gained hands-on operational exposure to DCS (Distributed Control System), field instrumentation, and OT infrastructure, including server room, network topology and plant-wide automation workflows.\n• Conduct predictive maintenance using Emerson & SKF vibration sensors on motors, fans and rotating equipment, analyzing DE/NDE vibration signatures to assess asset health and prevent downtime.\n• Supported Smart Factory / Industry 4.0 initiatives by understanding data flow from sensors → DCS → OT servers, enabling future projects in digital monitoring and equipment health analytics.\n• Worked across CB and CPP units, learning end-to-end process operations, interlocks, equipment behavior, and safety systems to integrate operational knowledge with upcoming smart-automation solutions.",
+    },
+    {
       company: "Calcutta Electric Supply Corporation Ltd.",
       link: "",
-      badges: ["On-site","Intern"],
+      badges: ["Intern", "On-site"],
       title: "Java Developer",
       // logo: logo,
-      start: "June 5, 2023",
-      end: "July 1, 2023",
+      start: "June 2023",
+      end: "July 2023",
       description:
         "Engineered a scalable system for Meter Inspection, streamlining data collection & analysis processes. Used Oracle databases to efficiently manage & store critical data, ensuring data integrity & reliability, with Spring Boot to enhance system performance, optimize resource utilization, & simplify application deployment",
     },
@@ -66,8 +77,8 @@ export const RESUME_DATA = {
       link: "https://www.isro.gov.in",
       badges: ["Remote"],
       title: "Online Training Programme",
-      start: "July 20, 2023",
-      end: "August 7, 2023",
+      start: "July 2023",
+      end: "August 2023",
       description: "Explored the significance and history of space research and exploration, & ISRO's role in it; astrophysical principles,including celestial phenomena, cosmic structures, & the behavior of matter & energy in the universe & delved into astrochemistry, exploring the chemical composition of cosmic objects.",
     },
   ],
